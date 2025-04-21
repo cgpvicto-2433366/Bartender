@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e5e5e5;
+  }
+  
+  .avis-container {
+    margin: 50px auto;
+    width: 90%;
+    max-width: 1000px;
+  }
+  
+  .avis-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .avis-list {
+    background-color: #782c2c;
+    border-radius: 15px;
+    padding: 30px;
+    min-height: 300px;
+  }
+  
+  .avis-card {
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .user-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #9999ff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .etoiles {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .commentaire {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    flex-grow: 1;
+    margin-top: 5px;
+  }
+  
+  .ajouter-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #673ab7;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Formulaire en popup */
+  .form-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .form-popup {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .form-popup h3 {
+    margin-top: 0;
+  }
+  
+  .form-popup textarea,
+  .form-popup select {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+  }
+  
+  .form-popup button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #673ab7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
